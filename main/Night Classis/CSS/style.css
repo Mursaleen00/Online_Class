@@ -1,0 +1,236 @@
+ /* THis is called External */
+ /* h1 {
+    color: blue;
+    text-decoration: underline;
+} */
+
+ /* 
+   <======= Selecters =======>
+
+    Id Selecter:             we select tag by id using # Hastag
+
+    Class Selecter:          we select tag by calss using . Dot
+    
+    Child Selecter:         we select child tag by parents using space for example if I have to select li by parent I'll write        ul li     like this 
+    
+    Group Selecter:         will select tags to make group for example if I have to select h1, p and li so we have to select h1, p, li like this with comas
+    
+    Tag Selecter:           this will select every same tag by tag name for exmple h1, h2, p, ul etc
+    
+    Universal Selecter:     this will select every tags in html using * Star
+*/
+
+ /* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap'); */
+
+ @font-face {
+     font-family: "aaaa";
+     src: url("./font/Lobster-Regular.ttf");
+ }
+
+ * {
+     font-family: sans-serif;
+     margin: 0px;
+     padding: 0px;
+ }
+
+ .a {
+     color: blueviolet;
+ }
+
+ .b {
+     color: blue;
+ }
+
+ .c {
+     text-decoration: underline;
+ }
+
+ .d {
+     font-style: italic;
+     font-weight: lighter;
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-around;
+     height: 70px;
+     align-items: center;
+     background-color: black;
+     color: white;
+ }
+
+ .nav_ul {
+     display: flex;
+     gap: 20px;
+     list-style: none;
+
+ }
+
+ .nav_ul li {
+     cursor: pointer;
+     font-size: 20px;
+ }
+
+ button {
+     padding: 10px 20px;
+     border-radius: 8px;
+     margin: 0px 5px;
+ }
+
+ .e {
+     color: green;
+     background-color: rgba(133, 163, 255);
+ }
+
+
+ .f {
+     font-size: 40px;
+     font-style: italic;
+     font-weight: 600;
+ }
+
+ .para {
+     font-size: larger;
+     font-style: italic;
+     font-weight: 600;
+     text-transform: capitalize;
+     text-decoration: dotted;
+     line-height: 30px;
+     word-spacing: 20px;
+ }
+
+ h1 {
+     text-decoration: none;
+ }
+
+ a {
+     text-decoration: none;
+     color: black;
+ }
+
+ h3,
+ #h1 {
+     line-height: 2px;
+     text-align: center;
+     vertical-align: bottom;
+ }
+
+ #h1 {
+     text-shadow: 2px 5px 30px;
+ }
+
+ h3 {
+     letter-spacing: 3.5px;
+ }
+
+ .div {
+     width: 300px;
+     border-color: black;
+     border-width: 5px 10px 2px 20px;
+     border-style: solid;
+ }
+
+ .para::first-letter {
+     color: red;
+     font-size: 58px;
+     font-style: normal;
+     text-decoration: underline;
+ }
+
+ button {
+     cursor: pointer;
+     background-color: rgba(46, 46, 132, 0.48);
+     color: white;
+ }
+
+ button:hover {
+     background-color: rgba(7, 7, 235, 0.572);
+     color: white;
+ }
+
+
+ input {
+     padding: 6px 12px 6px 12px;
+     border: 1px solid #665544;
+     color: #000000;
+ }
+
+ input.submit:hover {
+     background-color: #000000;
+ }
+
+ input.submit:active {
+     background-color: rgb(255, 106, 0);
+ }
+
+ input.text {
+     color: #ff0000;
+ }
+
+ input.text:focus {
+     color: #66b400;
+ }
+
+ #d {
+     border: 2px solid black;
+     height: 200px;
+     min-width: 300px;
+     max-width: 600px;
+     display: block;
+     margin: 50px 20px 20px 20px;
+     overflow: scroll;
+     padding: 20px;
+ }
+
+ body {
+     background-color: antiquewhite;
+ }
+
+ #e {
+     border: 2px solid black;
+     height: 200px;
+     min-width: 300px;
+     max-width: 600px;
+     display: block;
+     overflow: scroll;
+     margin: 0px auto;
+ }
+
+ span {
+     text-decoration: underline;
+     font-style: italic;
+ }
+
+ .main {
+    display: flex;
+     justify-content: space-between;
+     margin: 15px 100px;
+ }
+
+ .main div {
+     /* border: 2px solid black; */
+ }
+ 
+ .main1 div {
+     border: 2px solid black;
+     height: 400px;
+     width: 300px;
+     border-radius: 20px;
+     /* padding: 0px 10px ; */
+ }
+
+ .main1 {
+     display: flex;
+     gap: 20px;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+ }
+
+ .main1 div img {
+     width: 300px;
+     border-radius: 18px 18px 0px 0px;
+     margin: 0px auto;
+ }
+
+ #asd {padding: 10px;}
+
